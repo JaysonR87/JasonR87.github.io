@@ -10,6 +10,8 @@ h2{
 }
 body {
     background-color: lightblue;
+    background-image: url(artifacts/HxH.jpeg);
+    color: #8E29D8;
 }
 p {
     color: purple;
