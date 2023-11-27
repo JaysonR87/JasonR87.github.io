@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1{
+    color: crimson;
+   
+}
+h2{
+    color: blueviolet;
+   
+}
+body {
+    background-color: lightblue;
+    background-image: url(artifacts/HxH.jpeg);
+    color: #8E29D8;
+}
+p {
+    color: purple;
+}
+img {
+    border: dotted;
+    height: 500px;
+    width: 500px;
+}
+a:link {
+    color: floralwhite;
+}
