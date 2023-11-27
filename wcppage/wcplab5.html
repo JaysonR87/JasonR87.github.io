@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign-up</title>
+</head>
+
+<body>
+<h1>Sign-Up Form for</h1>
+<p>This form will be used to create an account and collect information for Vistors to the</p>
+	
+<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+<label for="firstname">First Name:</label>
+<input name="firstname" type="text" required="required" id="firstname">
+<br>
+<label for="lastname">Last Name:</label>
+<input name="lastname" type="text" required="required" id="lastname">
+<br>
+<label for="username">Username:</label>
+<input name="username" type="text" required="required" id="username" pattern="[A-Za-z]{6,10}">
+<br>
+<label for="pword">Password:</label>
+<input name="pword" type="password" required="required" id="pword" pattern="[0-9A-Za-z]{6,10}">
+<br>
+<label for="dob">Date Of Birth:</label>
+<input name="dob" type="date" required="required" id="dob">
+<br>
+<label for="number">Phone Number:</label>
+<input name="number" type="tel" required="required" id="number" min="10">
+<br>
+<label for="email">Email:</label>
+<input name="email" type="email" required="required" id="email">
+<br>
+<label for="url">Personal Website</label>
+<input name="url" type="url" id="url">
+<br>
+<br>
+<label>Interests:</label>
+<br>
+<br>
+<label for="Basketball">Basketball</label>
+<input name="interests" type="checkbox" id="Basketball">
+<br>
+<label for="Soccer">Soccer</label>
+<input name="interests" type="checkbox" id="Soccer">
+<br>
+<label for="Tennis">Tennis</label>
+<input name="interests" type="checkbox" id="Tennis">
+<br>
+<label for="Hockey">Hockey</label>
+<input name="interests" type="checkbox" id="Hockey">
+<br>
+<br>
+<label>Where did you hear about this site?</label>
+<br>
+<br>
+<label>From your friends</label>
+<input name="Friends" type="radio">
+<br>
+<label>From your family</label>
+<input name="family" type="radio">
+<br>
+<label>From our social media accounts</label>
+<input name="social" type="radio">
+<br>
+<label>Other</label>
+<input name="other" type="radio">
+<br>
+<input type="submit">
+<input type="reset">
+	
+</form>
+	
+</body>
+</html>
